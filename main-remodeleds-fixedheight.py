@@ -1,13 +1,13 @@
-from time import time
-import numpy as np
+#from time import time
+#import numpy as np
 import pandas as pd
-import xarray as xr
+#import xarray as xr
 import matplotlib.pyplot as plt
 import seaborn as sns
-from scipy import stats
-from pandas.plotting import register_matplotlib_converters
-import math
-register_matplotlib_converters()
+#from scipy import stats
+#from pandas.plotting import register_matplotlib_converters
+#import math
+#register_matplotlib_converters()
 
 data=pd.read_csv("data-hh60.csv",sep=";")
 melted=pd.melt(data,id_vars=['mmid'])
